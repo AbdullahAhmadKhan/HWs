@@ -1,0 +1,342 @@
+[93mA tester by Alp Yılmaz .feat CurvyWall3369[0m
+-->
+tissue #1 has 2 elements.
+-->
+StrengthenCellWall test #1
+	cell id: 0
+	(3,2)
+	after Strengthen():
+	(3,2)
+-----s-----s-----s-----
+StrengthenCellWall test #2
+	cell id: 1
+	(1.732,1) - (-1,1.732) - (-1.732,-1) - (-1,-1.732) - (1.732,-1)
+	after Strengthen():
+	(1.732,1)
+-----s-----s-----s-----
+
+
+DoesFitInto test #1
+	cell id: 0
+	(3,2)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	True
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #2
+	cell id: 0
+	(3,2)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #3
+	cell id: 0
+	(3,2)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+DoesFitInto test #4
+	cell id: 1
+	(1.732,1) - (-1,1.732) - (-1.732,-1) - (-1,-1.732) - (1.732,-1)
+	MicroOrganism #0	True
+	MicroOrganism #1	False
+	MicroOrganism #2	True
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #5
+	cell id: 1
+	(1.732,1) - (-1,1.732) - (-1.732,-1) - (-1,-1.732) - (1.732,-1)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #6
+	cell id: 1
+	(1.732,1) - (-1,1.732) - (-1.732,-1) - (-1,-1.732) - (1.732,-1)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+-->
+tissue #2 has 4 elements.
+-->
+StrengthenCellWall test #3
+	cell id: 2
+	(1,3) - (3,3) - (3,5)
+	after Strengthen():
+	(1,3) - (3,3) - (3,5)
+-----s-----s-----s-----
+StrengthenCellWall test #4
+	cell id: 3
+	(0,0) - (1.5,-1) - (3,-2) - (2.6,0) - (2.4,1) - (2,3) - (0.66666,1)
+	after Strengthen():
+	(0,0) - (3,-2) - (2,3)
+-----s-----s-----s-----
+StrengthenCellWall test #5
+	cell id: 4
+	(0,0) - (1,0) - (2,0) - (3,-1) - (3,0.6) - (3,2) - (1.5,1)
+	after Strengthen():
+	(0,0) - (2,0) - (3,-1) - (3,2)
+-----s-----s-----s-----
+StrengthenCellWall test #6
+	cell id: 5
+	(0,0) - (0,-1) - (1,-2) - (3,-1) - (2,-3) - (3,-4) - (4,0)
+	after Strengthen():
+	(0,0) - (0,-1) - (1,-2) - (3,-1) - (2,-3) - (3,-4) - (4,0)
+-----s-----s-----s-----
+
+
+DoesFitInto test #7
+	cell id: 2
+	(1,3) - (3,3) - (3,5)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #8
+	cell id: 2
+	(1,3) - (3,3) - (3,5)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	True
+-----d-----f-----i-----
+DoesFitInto test #9
+	cell id: 2
+	(1,3) - (3,3) - (3,5)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+DoesFitInto test #10
+	cell id: 3
+	(0,0) - (1.5,-1) - (3,-2) - (2.6,0) - (2.4,1) - (2,3) - (0.66666,1)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #11
+	cell id: 3
+	(0,0) - (1.5,-1) - (3,-2) - (2.6,0) - (2.4,1) - (2,3) - (0.66666,1)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	True
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #12
+	cell id: 3
+	(0,0) - (1.5,-1) - (3,-2) - (2.6,0) - (2.4,1) - (2,3) - (0.66666,1)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+DoesFitInto test #13
+	cell id: 4
+	(0,0) - (1,0) - (2,0) - (3,-1) - (3,0.6) - (3,2) - (1.5,1)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #14
+	cell id: 4
+	(0,0) - (1,0) - (2,0) - (3,-1) - (3,0.6) - (3,2) - (1.5,1)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #15
+	cell id: 4
+	(0,0) - (1,0) - (2,0) - (3,-1) - (3,0.6) - (3,2) - (1.5,1)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+DoesFitInto test #16
+	cell id: 5
+	(0,0) - (0,-1) - (1,-2) - (3,-1) - (2,-3) - (3,-4) - (4,0)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #17
+	cell id: 5
+	(0,0) - (0,-1) - (1,-2) - (3,-1) - (2,-3) - (3,-4) - (4,0)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #18
+	cell id: 5
+	(0,0) - (0,-1) - (1,-2) - (3,-1) - (2,-3) - (3,-4) - (4,0)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+-->
+tissue #3 has 4 elements.
+-->
+StrengthenCellWall test #7
+	cell id: 6
+	(-4,2) - (-4.5,2.5) - (-5,3) - (-5.5,2.5) - (-6,2) - (-5,1)
+	after Strengthen():
+	(-4,2) - (-5,3) - (-6,2) - (-5,1)
+-----s-----s-----s-----
+StrengthenCellWall test #8
+	cell id: 7
+	(0,0) - (1,0) - (2,0) - (3,0) - (4.5,0) - (6,0) - (6,1.2) - (6,1.95) - (6,3.222) - (6,4) - (5,4) - (3.99,4) - (2.65,4) - (1.44,4) - (0,4) - (0,3) - (0,2.76) - (0,2.75) - (0,1.2)
+	after Strengthen():
+	(0,0) - (6,0) - (6,4) - (0,4)
+-----s-----s-----s-----
+StrengthenCellWall test #9
+	cell id: 8
+	(0,0) - (1,-2) - (2,0) - (1,2)
+	after Strengthen():
+	(0,0) - (1,-2) - (2,0) - (1,2)
+-----s-----s-----s-----
+StrengthenCellWall test #10
+	cell id: 9
+	(0,0) - (4,-4) - (8,0) - (4,4)
+	after Strengthen():
+	(0,0) - (4,-4) - (8,0) - (4,4)
+-----s-----s-----s-----
+
+
+DoesFitInto test #19
+	cell id: 6
+	(-4,2) - (-4.5,2.5) - (-5,3) - (-5.5,2.5) - (-6,2) - (-5,1)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #20
+	cell id: 6
+	(-4,2) - (-4.5,2.5) - (-5,3) - (-5.5,2.5) - (-6,2) - (-5,1)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #21
+	cell id: 6
+	(-4,2) - (-4.5,2.5) - (-5,3) - (-5.5,2.5) - (-6,2) - (-5,1)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+DoesFitInto test #22
+	cell id: 7
+	(0,0) - (1,0) - (2,0) - (3,0) - (4.5,0) - (6,0) - (6,1.2) - (6,1.95) - (6,3.222) - (6,4) - (5,4) - (3.99,4) - (2.65,4) - (1.44,4) - (0,4) - (0,3) - (0,2.76) - (0,2.75) - (0,1.2)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #23
+	cell id: 7
+	(0,0) - (1,0) - (2,0) - (3,0) - (4.5,0) - (6,0) - (6,1.2) - (6,1.95) - (6,3.222) - (6,4) - (5,4) - (3.99,4) - (2.65,4) - (1.44,4) - (0,4) - (0,3) - (0,2.76) - (0,2.75) - (0,1.2)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #24
+	cell id: 7
+	(0,0) - (1,0) - (2,0) - (3,0) - (4.5,0) - (6,0) - (6,1.2) - (6,1.95) - (6,3.222) - (6,4) - (5,4) - (3.99,4) - (2.65,4) - (1.44,4) - (0,4) - (0,3) - (0,2.76) - (0,2.75) - (0,1.2)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+DoesFitInto test #25
+	cell id: 8
+	(0,0) - (1,-2) - (2,0) - (1,2)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #26
+	cell id: 8
+	(0,0) - (1,-2) - (2,0) - (1,2)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #27
+	cell id: 8
+	(0,0) - (1,-2) - (2,0) - (1,2)
+	MicroOrganism #9	False
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+DoesFitInto test #28
+	cell id: 9
+	(0,0) - (4,-4) - (8,0) - (4,4)
+	MicroOrganism #0	False
+	MicroOrganism #1	False
+	MicroOrganism #2	False
+	MicroOrganism #3	False
+	MicroOrganism #4	False
+-----d-----f-----i-----
+DoesFitInto test #29
+	cell id: 9
+	(0,0) - (4,-4) - (8,0) - (4,4)
+	MicroOrganism #5	False
+	MicroOrganism #6	False
+	MicroOrganism #7	False
+	MicroOrganism #8	False
+-----d-----f-----i-----
+DoesFitInto test #30
+	cell id: 9
+	(0,0) - (4,-4) - (8,0) - (4,4)
+	MicroOrganism #9	True
+	MicroOrganism #10	False
+	MicroOrganism #11	False
+	MicroOrganism #12	False
+-----d-----f-----i-----
+Interact Test #1
+	The microorganism 0 was successfully placed into the cell 1.
+	The microorganism 1 could not be placed into any cell!
+	The microorganism 2 could not be placed into any cell!
+	The microorganism 3 was successfully placed into the cell 0.
+	The microorganism 4 could not be placed into any cell!
+Interact Test #2
+	The microorganism 5 could not be placed into any cell!
+	The microorganism 6 could not be placed into any cell!
+	The microorganism 7 was successfully placed into the cell 3.
+	The microorganism 8 was successfully placed into the cell 2.
+Interact Test #3
+	The microorganism 9 was successfully placed into the cell 9.
+	The microorganism 10 could not be placed into any cell!
+	The microorganism 11 could not be placed into any cell!
+	The microorganism 12 could not be placed into any cell!

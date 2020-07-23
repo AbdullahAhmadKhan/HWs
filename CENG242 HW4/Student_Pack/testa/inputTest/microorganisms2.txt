@@ -1,0 +1,41 @@
+12 3
+
+0 0
+Circular 1.989
+
+1 0
+Circular 1.999
+
+2 0
+Circular 1
+
+3 0
+Circular 3
+
+4 1
+Triangular 2 3 3
+AUG
+
+5 1
+Triangular 3 3 3
+AAG
+
+6 1
+Triangular 3.60555 3.60555 5.0990
+ASG
+
+7 1
+Triangular 2 2 2.8284
+AAAAASSGG
+
+8 2
+Squadratic 5.656854
+
+9 2
+Squadratic 6.6568
+
+10 2
+Squadratic 2.2360
+
+11 2
+Squadratic 2.23
